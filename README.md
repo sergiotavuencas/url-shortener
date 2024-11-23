@@ -35,7 +35,7 @@ To test the application, you can use **Postman**, **Insomnia**, or any similar s
 1. Make a **POST** request with a JSON object in the following structure to this URL: 
 ``https://c3ix2qd8t5.execute-api.sa-east-1.amazonaws.com/create``<br><br>
    - ``originalUrl``: The URL you want to shorten.
-   - ``expirationTime``: The time when the link should expire, in Epoch format.<br>
+   - ``expirationTime``: The time when the link should expire, in Epoch format.<br><br>
     ```json
     {
         "originalUrl": "https://example.com",
