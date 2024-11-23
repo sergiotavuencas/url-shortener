@@ -8,8 +8,6 @@
 </div>
 <br>
 
----
-
 This project was developed as part of the **_Curso Gratuito de Java_** by **Rocketseat**. The goal was to build a 
 **Serverless URL shortener** using **Java**, **AWS Lambda**, and **API Gateway**.
 
@@ -21,8 +19,6 @@ The application features two **endpoints** managed by **API Gateway**, which com
 - **GET Endpoint**:  
   The user can use the provided **code** to retrieve and **render** the saved **URL**.
 
----
-
 ## Technologies
 
 - Java 21
@@ -30,13 +26,13 @@ The application features two **endpoints** managed by **API Gateway**, which com
 - S3 Bucket
 - API Gateway
 
----
-
 ## Testing
 
 To test the application, you can use **Postman**, **Insomnia**, or any similar software. Follow the instructions below, and you should encounter no issues.
 
 **Note**: AWS Lambda has a **"cold start"**, so it may take a few seconds to return a response.
+
+---
 
 1. Make a **POST** request with a JSON object in the following structure to this URL: 
 ``https://c3ix2qd8t5.execute-api.sa-east-1.amazonaws.com/create``<br><br>
@@ -68,13 +64,9 @@ To test the application, you can use **Postman**, **Insomnia**, or any similar s
    ***Note:*** You can access the URL with the code in a browser like Chrome, Opera, or any similar tool, and it will 
 redirect you to the saved page.
 
----
-
 ## GitHub
 [![Top Langs](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=sergiotavuencas)](https://github.com/anuraghazra/github-readme-stats)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sergiotavuencas\&hide=issues\&show_icons=true)
-
----
 
 ## Contact
 Feel free to reach out to me through my social media if you have questions about my career, projects I’m working on, what I’m studying, or any advice you might have, whether career-related or suggestions for improvements in my code.
