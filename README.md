@@ -32,8 +32,6 @@ To test the application, you can use **Postman**, **Insomnia**, or any similar s
 
 **Note**: AWS Lambda has a **"cold start"**, so it may take a few seconds to return a response.
 
----
-
 1. Make a **POST** request with a JSON object in the following structure to this URL: 
 ``https://c3ix2qd8t5.execute-api.sa-east-1.amazonaws.com/create``<br><br>
    - ``originalUrl``: The URL you want to shorten.
